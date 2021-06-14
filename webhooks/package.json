@@ -1,0 +1,23 @@
+{
+  "name": "webhooks",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start-debug": "node --nolazy --inspect-brk=9229 index.js",
+    "start-production": "NODE_ENV=production node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RikkaApps/websites.git"
+  },
+  "author": "Rikka",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "moment": "^2.24.0",
+    "request-promise": "^4.2.5",
+    "vuepress": "^1.2.0",
+    "vuepress-plugin-sitemap": "^2.3.1"
+  }
+}
